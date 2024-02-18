@@ -1,0 +1,162 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+span1{
+    color:#f90202
+}
+.header{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+
+    padding:2px 15px;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color:#fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(50, 39, 95);
+}
+.welcome{
+    position: relative;
+    max-width: 100%;
+    width:1600px;
+    margin:10px auto;
+    height:500px
+}
+.welcome img{
+    position:absolute;
+    top: 39%;
+    width:380px;
+    left:70%;
+    border-radius: 48%;
+    border-top-right-radius: 0px;
+
+}
+.welcome h2{
+    font-size: 2.4rem;
+    position: absolute;
+    left:5%;
+    top:45%;
+    color:#333;
+}
+.welcome h2 span{
+    font-weight: bold;
+    color:rgb(25, 17, 247)
+}
+nav{
+    position: sticky;
+    top:70px;
+    margin: 180px auto;
+    background-color: darkgrey;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:#222;
+}
+nav ul li a:hover{
+    color:aliceblue
+}
+
+.main-content{
+    width:100%;
+    max-width: 1000px;
+    margin: 74px auto;
+}
+section h2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color:#0062ff
+}
+
+section p{
+    font-size: 1.4rem;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.images li{
+    list-style-type:none;
+    margin-right: 10px;
+}
+.image img{
+    width: 146%;
+    border: solid 1px #070606;
+    border-radius: 1rem;
+}
+.row {
+    display: flex;
+    margin-bottom: 1rem;
+}
+div.service-title{
+    display: flex
+}
+.service-title img{
+    width: 35px;
+    margin-right: 15px;
+}
+div.service-title h3{
+    font-size: 1.4rem;
+    color:#444
+}
+
+form{
+    border: solid 2px #ddd;
+    width:65%;
+    padding: 35px;
+    background-color: #009dff96;
+    border-radius: 2.1rem;
+}
+form input[type='text'], form input[type='email'], form textarea{
+    padding: 8px;
+    font-size: 1.2rem;
+    width:100%;
+    border: solid 2px #ddd;
+    margin: 6px 0px
+}
+form input[type='submit']{
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    background-color: #fff;
+    color:#f516f5;
+    padding: 9px 24px;
+    border-radius: 1rem;
+}
+.whatsApp{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.whatsApp span.numero{
+    font-size: 33px;
+    font-weight: bold;
+    color: #fff;
+}
+div.form{
+    position: relative;
+}
+div.form form{
+    position: absolute;
+    top:25%;
+    left: 45%;
+
+}
+div.form img{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.643);
+}
